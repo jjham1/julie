@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgba(255, 240, 245);
+}
+
+#banner-container{
+    overflow: hidden;
+    background-color: white;
+}
+
+#banner{
+    font-size: 15em;
+    color: lightgray;
+    white-space: nowrap;
+    display: inline-block;
+
+    animation: my-animation 40s linear infinite;
+}
+
+@keyframes my-animation {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.resume{
+    font-size: 1.5em;
+    padding-right: 10em;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    bottom: 0.25em;
+    left: 0;
+    right: 0;
+}
+
+.headers{
+    font-size: 1.5em;
+}
+
+
