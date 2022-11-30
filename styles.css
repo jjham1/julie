@@ -13,7 +13,7 @@ body {
 }
 
 #banner{
-    font-size: 15em;
+    font-size: 1vw;
     color: lightgray;
     white-space: nowrap;
     display: inline-block;
