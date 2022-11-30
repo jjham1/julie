@@ -4,7 +4,7 @@ a{
 }
 
 body {
-    background-color: rgba(255, 240, 245);
+    background-color: #FAF9F6;
 }
 
 #banner-container{
@@ -39,6 +39,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 1em;
+}
+
+.name-row{
+    font-size: 5vw;
 }
 
 footer{
