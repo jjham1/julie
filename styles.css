@@ -1,5 +1,6 @@
 body {
     background-color: #FAF9F6;
+    /*background-color: #AEB59B;*/
     margin: 0;
     overflow: hidden;
 }
@@ -24,7 +25,7 @@ a{
     font-size: 3vw;
     color: black;
     white-space: nowrap;
-    overflow: hidden;
+    /*overflow: hidden;*/
     /*display: inline-block;*/
 
     animation: my-animation 300s linear infinite;
@@ -47,6 +48,7 @@ a{
     text-align: center;
     /*background-color: white;*/
     background-color: #FAF9F6;
+    /*background-color: #AEB59B;*/
 }
 
 .tabs span {
@@ -54,6 +56,7 @@ a{
 }
 
 .top-bar {
+    /*background-color: #FAF9F6;*/
     top: 0;
     right: 0;
     width: 100%;
@@ -73,6 +76,7 @@ a{
 .midsection {
     margin-top: 2vw;
     margin-left: 2vw;
+    /*font-family: Arial;*/
 }
 
 #greetings {
@@ -91,8 +95,22 @@ a{
 /*}*/
 
 .name-row{
-    font-size: 10vw;
+    padding-top: 2vw;
+    font-size: 3.25vw;
     padding-left: 2vw;
+    padding-right: 5vw;
+}
+
+.name-row a {
+    color: blue;
+}
+
+.name-row span {
+    font-size: 6vw;
+}
+
+#intro {
+    font-size: 5vw;
 }
 
 footer{
