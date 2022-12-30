@@ -51,6 +51,10 @@ a{
     /*background-color: #AEB59B;*/
 }
 
+.tabs p {
+
+}
+
 .tabs span {
     margin-top: 2vw;
 }
@@ -74,7 +78,7 @@ a{
 }
 
 .midsection {
-    margin-top: 2vw;
+    margin-top: 10vw;
     margin-left: 2vw;
     /*font-family: Arial;*/
 }
