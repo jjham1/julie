@@ -28,21 +28,22 @@ a{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
+
 }
 
 #banner-container{
     font-size: 1.5vw;
     color: black;
     margin-left: 1vw;
+    /*background-color: #FAF9F6;*/
 }
 
 #welcome-banner{
-    font-size: 3vw;
+    font-size: 2.5vw;
     white-space: nowrap;
-    /*overflow: hidden;*/
-    /*display: inline-block;*/
-
-    animation: my-animation 300s linear infinite;
+    display: inline-block;
+    animation: my-animation 500s linear infinite;
 
 }
 
