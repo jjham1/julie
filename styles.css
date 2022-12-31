@@ -2,7 +2,7 @@ body {
     background-color: #FAF9F6;
     /*background-color: #AEB59B;*/
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 a{
@@ -28,8 +28,8 @@ a{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    overflow: hidden;
-
+    /*overflow: hidden;*/
+    position: sticky;
 }
 
 #banner-container{
@@ -93,6 +93,10 @@ a{
 /**
     ABOUT.html
  */
+
+#profile-photo{
+    width: 100%;
+}
 
 #greetings {
     font-size: 2vw;
