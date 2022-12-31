@@ -135,7 +135,26 @@ footer{
     PORTFOLIO
  */
 
+.details {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    display: flex;
+    /*align-content: center;*/
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column {
+    /*flex: 25%;*/
+}
+
+.column:first-child {
+    font-size: 3vw;
+    align-self: center;
+}
+
 img {
+    margin-top: 2vw;
     border-radius: 1vw;
     max-width: 50%;
     height: auto;
