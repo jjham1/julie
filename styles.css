@@ -18,17 +18,32 @@ a{
             'opsz' 48
 }
 
-#banner-container{
+.top-bar {
+    /*background-color: #FAF9F6;*/
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 5vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-#banner{
-    font-size: 3vw;
+#banner-container{
+    font-size: 1.5vw;
     color: black;
+    margin-left: 1vw;
+}
+
+#welcome-banner{
+    font-size: 3vw;
     white-space: nowrap;
     /*overflow: hidden;*/
     /*display: inline-block;*/
 
     animation: my-animation 300s linear infinite;
+
 }
 
 @keyframes my-animation {
@@ -57,16 +72,6 @@ a{
 
 .tabs span {
     margin-top: 2vw;
-}
-
-.top-bar {
-    /*background-color: #FAF9F6;*/
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 5vw;
-    border: 2px solid black;
-    overflow: hidden;
 }
 
 .top-row {
