@@ -80,6 +80,7 @@ a{
 
 .main {
     margin-left: 5vw;
+    color: #2b281f;
 }
 
 .midsection {
@@ -88,14 +89,18 @@ a{
     /*font-family: Arial;*/
 }
 
+/**
+    ABOUT.html
+ */
+
 #greetings {
-    font-size: 4vw;
+    font-size: 2vw;
 }
 
-.resume{
-    font-size: 1.5em;
-    padding-right: 10em;
-}
+/*.resume{*/
+/*    font-size: 1.5em;*/
+/*    padding-right: 10em;*/
+/*}*/
 
 /*.row{*/
 /*    display: flex;*/
@@ -104,8 +109,9 @@ a{
 /*}*/
 
 .name-row{
+    color: #2b281f;
     padding-top: 2vw;
-    font-size: 3.25vw;
+    font-size: 3vw;
     padding-left: 2vw;
     padding-right: 5vw;
 }
