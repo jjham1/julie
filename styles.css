@@ -19,9 +19,9 @@ a{
 }
 
 .top-bar {
-    /*background-color: #FAF9F6;*/
+    background-color: #FAF9F6;
     top: 0;
-    right: 0;
+    left: 5vw;
     width: 100%;
     height: 5vw;
     border: 2px solid black;
@@ -29,7 +29,8 @@ a{
     justify-content: flex-start;
     align-items: center;
     /*overflow: hidden;*/
-    position: sticky;
+    position: fixed;
+    /*z-index: -1;*/
 }
 
 #banner-container{
@@ -65,6 +66,7 @@ a{
     /*background-color: white;*/
     background-color: #FAF9F6;
     /*background-color: #AEB59B;*/
+    z-index: 1;
 }
 
 .tabs p {
@@ -85,8 +87,10 @@ a{
 }
 
 .midsection {
-    margin-top: 10vw;
-    margin-left: 2vw;
+    padding-top: 5vw;
+    margin-right: 2vw;
+    /*align-self: center;*/
+    /*padding-left: 2vw;*/
     /*font-family: Arial;*/
 }
 
@@ -94,8 +98,20 @@ a{
     ABOUT.html
  */
 
-#profile-photo{
-    width: 100%;
+.self-intro {
+    font-size: 3vw;
+    align-self: center;
+    line-height: 115%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.profile-photo {
+    align-self: auto;
+    margin-left: 2vw;
+    border-radius: 1vw;
+    max-width: 35%;
+    height: auto;
 }
 
 #greetings {
@@ -149,6 +165,7 @@ footer{
 
 /**
     PORTFOLIO
+    --> DESIGN + PROJECTS
  */
 
 .details {
@@ -170,7 +187,7 @@ footer{
 }
 
 img {
-    margin-top: 2vw;
+    margin-top: 5vw;
     border-radius: 1vw;
     max-width: 50%;
     height: auto;
