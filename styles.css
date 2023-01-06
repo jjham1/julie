@@ -35,6 +35,7 @@ a{
 
 #banner-container{
     font-size: 1.5vw;
+    font-family: "Playfair Display";
     color: black;
     margin-left: 1vw;
     /*background-color: #FAF9F6;*/
@@ -84,6 +85,7 @@ a{
 .main {
     margin-left: 5vw;
     color: #2b281f;
+    font-family: "Source Sans Pro";
 }
 
 .midsection {
